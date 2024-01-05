@@ -1,0 +1,13 @@
+@import "../Common/Color.scss";
+@import "../Common/Fonts.scss";
+
+.MainForm{
+    font-family: $font-family-poppins;
+    .formLabel{
+        font-size: $fontSize1rem;
+        font-weight: $fontW400;
+        line-height: 1.5;
+        color: rgb(133, 135, 150) !important;
+        text-align: left;
+    }
+}

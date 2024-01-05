@@ -1,0 +1,36 @@
+@import "../Common/Color.scss";
+
+
+.topNavbar{
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    .search-button{
+        background: $colorBlue;
+    }
+    .bell{
+        color: $bellColor;
+    }
+    .topbar-divider{
+        width: 0;
+        border-right: 1px solid #e3e6f0;
+        height: calc(4.375rem - 2rem);
+        margin: auto 1rem;
+    
+    }
+    .profileDrop{
+        .dropdown-toggle::after {
+            display:none;
+          
+        }
+        .nav-link{
+            display: initial;
+        }
+        .dropdown-menu{
+            left: -55px;
+            top:120%
+        }
+        
+        
+    }
+}
+
