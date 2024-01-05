@@ -1,13 +1,19 @@
 @import "../Common/Color.scss";
-@import "../Common/Fonts.scss";
+@import"../Common/Fonst.scss";
+
+
+
 
 .MainForm{
+  
     font-family: $font-family-poppins;
-    .formLabel{
+    .myFormLabel{
         font-size: $fontSize1rem;
         font-weight: $fontW400;
-        line-height: 1.5;
-        color: rgb(133, 135, 150) !important;
-        text-align: left;
+        color:$gray ;
+        text-align: $left;
+    }
+    .form-control {
+        font-size: 0.8rem;
     }
 }
